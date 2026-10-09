@@ -1,0 +1,27 @@
+[hunter] it 0/244 steps 0.0M return -0.485 ent 3.62 sps 72144
+[hunter] it 10/244 steps 0.2M return 4.441 ent 3.70 sps 30561
+[hunter] it 20/244 steps 0.3M return 4.097 ent 3.65 sps 30614
+[hunter] it 30/244 steps 0.5M return 5.427 ent 3.70 sps 32546
+[hunter] it 40/244 steps 0.7M return 6.361 ent 3.67 sps 37287
+[hunter] it 50/244 steps 0.8M return 5.375 ent 3.65 sps 40801
+[hunter] it 60/244 steps 1.0M return 8.078 ent 3.74 sps 43609
+[hunter] it 70/244 steps 1.2M return 6.720 ent 3.74 sps 45814
+[hunter] it 80/244 steps 1.3M return 5.724 ent 3.66 sps 47717
+[hunter] it 90/244 steps 1.5M return 6.549 ent 3.70 sps 49675
+[hunter] it 100/244 steps 1.7M return 6.675 ent 3.71 sps 50911
+[hunter] it 110/244 steps 1.8M return 6.369 ent 3.64 sps 51951
+[hunter] it 120/244 steps 2.0M return 7.772 ent 3.73 sps 53417
+[hunter] it 130/244 steps 2.1M return 7.097 ent 3.64 sps 54805
+[hunter] it 140/244 steps 2.3M return 6.735 ent 3.74 sps 55592
+[hunter] it 150/244 steps 2.5M return 6.440 ent 3.68 sps 56336
+[hunter] it 160/244 steps 2.6M return 7.805 ent 3.70 sps 57388
+[hunter] it 170/244 steps 2.8M return 6.772 ent 3.69 sps 57926
+[hunter] it 180/244 steps 3.0M return 7.898 ent 3.66 sps 58797
+[hunter] it 190/244 steps 3.1M return 7.371 ent 3.72 sps 59623
+[hunter] it 200/244 steps 3.3M return 6.766 ent 3.72 sps 59923
+[hunter] it 210/244 steps 3.5M return 6.022 ent 3.77 sps 60429
+[hunter] it 220/244 steps 3.6M return 6.848 ent 3.68 sps 60767
+[hunter] it 230/244 steps 3.8M return 7.031 ent 3.65 sps 61277
+[hunter] it 240/244 steps 3.9M return 6.837 ent 3.71 sps 61599
+[hunter] it 243/244 steps 4.0M return 6.321 ent 3.67 sps 61728
+[hunter] done, best avg return 8.078

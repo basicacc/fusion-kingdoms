@@ -1,0 +1,53 @@
+{
+  "levels": { "ExtremeLow": [0, 5], "Low": [6, 33], "Mid": [34, 66], "High": [67, 94], "ExtremeHigh": [95, 100] },
+  "traits": [
+    { "name": "Coward", "tier": "Common", "when": ["Courage<=Low"], "desc": "Runs from any fight." },
+    { "name": "Brave", "tier": "Common", "when": ["Courage>=High"], "desc": "Holds ground when outnumbered." },
+    { "name": "Wanderer", "tier": "Common", "when": ["Curiosity>=High", "Diligence<=Low"], "desc": "Great explorer, terrible worker." },
+    { "name": "Homebody", "tier": "Common", "when": ["Territoriality>=High"], "desc": "Never leaves your land." },
+    { "name": "Hothead", "tier": "Common", "when": ["Aggression>=High", "Patience<=Low"], "desc": "Picks fights the moment it sees one." },
+    { "name": "Gentle", "tier": "Common", "when": ["Aggression<=Low", "Compassion>=Mid"], "desc": "Avoids tussles, helps where it can." },
+    { "name": "Greedy", "tier": "Common", "when": ["Greed>=High"], "desc": "Always grabs a little more before heading home." },
+    { "name": "Selfless", "tier": "Common", "when": ["Greed<=Low", "Compassion>=High"], "desc": "Puts others before loot." },
+    { "name": "Loyal", "tier": "Common", "when": ["Loyalty>=High"], "desc": "Follows the ruler wherever it goes." },
+    { "name": "Free Spirit", "tier": "Common", "when": ["Loyalty<=Low", "Discipline<=Low"], "desc": "Ignores both crown and orders." },
+    { "name": "Obedient", "tier": "Common", "when": ["Discipline>=High"], "desc": "Goes where it is told." },
+    { "name": "Curious", "tier": "Common", "when": ["Curiosity>=High"], "desc": "Drawn to the unexplored." },
+    { "name": "Patient", "tier": "Common", "when": ["Patience>=High"], "desc": "Waits for the right moment." },
+    { "name": "Restless", "tier": "Common", "when": ["Patience<=Low", "Diligence<=Low"], "desc": "Can't sit still or stay on task." },
+    { "name": "Herd", "tier": "Common", "when": ["Teamwork>=High"], "desc": "Sticks close to its allies." },
+    { "name": "Loner", "tier": "Common", "when": ["Teamwork<=Low"], "desc": "Prefers to go alone." },
+    { "name": "Sly", "tier": "Common", "when": ["Cunning>=High"], "desc": "Circles around watchful eyes." },
+    { "name": "Diligent", "tier": "Common", "when": ["Diligence>=High"], "desc": "Keeps working long after others stop." },
+    { "name": "Roamer", "tier": "Common", "when": ["Territoriality<=Low", "Curiosity>=Mid"], "desc": "Happily leaves home ground." },
+    { "name": "Caring", "tier": "Common", "when": ["Compassion>=High"], "desc": "Rushes to fallen allies." },
+
+    { "name": "Workhorse", "tier": "Uncommon", "when": ["Diligence>=High", "Discipline>=High"], "replaces": ["Diligent", "Obedient"], "desc": "Ideal for farms and quarries." },
+    { "name": "Berserker", "tier": "Uncommon", "when": ["Courage>=High", "Patience<=Low", "Aggression>=High"], "replaces": ["Hothead", "Brave"], "desc": "Charges anything in sight." },
+    { "name": "Shieldbearer", "tier": "Uncommon", "when": ["Loyalty>=High", "Teamwork>=High", "Aggression<=Low"], "replaces": ["Loyal", "Herd"], "desc": "Guards the ruler, avoids chasing." },
+    { "name": "Ambusher", "tier": "Uncommon", "when": ["Cunning>=High", "Patience>=High"], "replaces": ["Sly", "Patient"], "desc": "Waits in forests, strikes late." },
+    { "name": "Pickpocket", "tier": "Uncommon", "when": ["Greed>=High", "Cunning>=High", "Courage<=Low"], "replaces": ["Greedy", "Sly", "Coward"], "desc": "Steals and vanishes, never fights." },
+    { "name": "Pathfinder", "tier": "Uncommon", "when": ["Curiosity>=High", "Courage>=Mid", "Cunning>=Mid"], "replaces": ["Curious"], "desc": "Scouts far and comes back." },
+    { "name": "Sentinel", "tier": "Uncommon", "when": ["Territoriality>=High", "Courage>=High", "Patience>=High"], "replaces": ["Homebody", "Brave", "Patient"], "desc": "Holds a chokepoint all day." },
+    { "name": "Gatherer", "tier": "Uncommon", "when": ["Diligence>=High", "Greed>=Mid", "Territoriality>=Mid"], "desc": "Brings in steady loads from nearby fields." },
+    { "name": "Skirmisher", "tier": "Uncommon", "when": ["Aggression>=High", "Courage<=Mid", "Cunning>=Mid"], "desc": "Hits and backs off." },
+    { "name": "Escort", "tier": "Uncommon", "when": ["Loyalty>=High", "Courage>=High"], "replaces": ["Loyal", "Brave"], "desc": "Stands between the ruler and danger." },
+
+    { "name": "Traitor's Streak", "tier": "Rare", "when": ["Greed>=High", "Loyalty<=Low", "Discipline<=Low"], "replaces": ["Free Spirit", "Greedy"], "desc": "May raid your own storage." },
+    { "name": "Medic", "tier": "Rare", "when": ["Compassion>=High", "Teamwork>=High", "Courage==Mid"], "replaces": ["Caring", "Herd"], "desc": "Pulls subdued allies out of fights." },
+    { "name": "Lone Wolf", "tier": "Rare", "when": ["Teamwork<=Low", "Courage>=High", "Cunning>=High"], "replaces": ["Loner", "Brave", "Sly"], "desc": "Deep solo raids." },
+    { "name": "Zealot", "tier": "Rare", "when": ["Discipline==ExtremeHigh", "Loyalty>=High"], "replaces": ["Obedient", "Loyal"], "desc": "Orders and crown above all else." },
+    { "name": "Hoardmaster", "tier": "Rare", "when": ["Greed==ExtremeHigh", "Territoriality>=High"], "replaces": ["Greedy", "Homebody"], "desc": "Drags every valuable home and sits on it." },
+
+    { "name": "Ghost", "tier": "Legendary", "when": ["Cunning==ExtremeHigh", "Courage<=Low"], "replaces": ["Sly", "Coward"], "desc": "Almost never seen by enemies." },
+    { "name": "Fearless", "tier": "Legendary", "when": ["Courage==ExtremeHigh"], "replaces": ["Brave"], "desc": "Never retreats, ever." },
+    { "name": "Kingslayer", "tier": "Legendary", "when": ["Aggression>=High", "Cunning==ExtremeHigh", "Patience>=High"], "replaces": ["Ambusher", "Sly", "Patient"], "desc": "Hunts enemy rulers." },
+    { "name": "Saint", "tier": "Legendary", "when": ["Compassion==ExtremeHigh", "Loyalty>=High"], "replaces": ["Caring", "Loyal"], "desc": "Rescues anyone, even at its own cost." },
+    { "name": "Tireless", "tier": "Legendary", "when": ["Diligence==ExtremeHigh", "Discipline>=High"], "replaces": ["Diligent", "Workhorse"], "desc": "Works without pause, forever." },
+
+    { "name": "Night Owl", "tier": "Rare", "special": "nightowl", "desc": "Works, explores and strikes far better after dark." },
+    { "name": "Rigid", "tier": "Rare", "special": "rigid", "desc": "Excellent at one thing, useless at others." },
+    { "name": "Hollow", "tier": "Flaw", "special": "hollow", "desc": "A broken blend: wanders aimlessly." },
+    { "name": "Erratic", "tier": "Flaw", "special": "erratic", "desc": "Unpredictable, sometimes brilliant." }
+  ]
+}

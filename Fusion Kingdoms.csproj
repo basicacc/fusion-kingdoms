@@ -1,0 +1,20 @@
+<Project Sdk="Godot.NET.Sdk/4.7.2">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <RootNamespace>FusionKingdoms</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="sim/**" />
+    <Compile Remove="sim-native/**" />
+    <Compile Remove="training/**" />
+    <Compile Remove="addons/**" />
+    <Compile Remove="tools/**" />
+    <Compile Remove="build/**" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="sim/Sim.csproj" />
+  </ItemGroup>
+</Project>

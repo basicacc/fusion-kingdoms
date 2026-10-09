@@ -1,0 +1,13 @@
+{
+  "args_summary": "update_project_settings",
+  "files": [
+    {
+      "backup": "res://addons/godot_mcp/cache/undo/entry_000002/files/project.godot",
+      "kind": "snapshot",
+      "path": "res://project.godot"
+    }
+  ],
+  "id": "000002",
+  "timestamp": 1791480385.0,
+  "tool": "update_project_settings"
+}

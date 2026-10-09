@@ -1,0 +1,73 @@
+base brain everyday score 11.00
+specialty scores with trigger present (rows = mind, cols = task), last col = everyday task
+           farmer builder   guard   scout   thief  hunter  healer hoarder  everyday
+farmer      15.73    0.05   -0.66    2.82   -0.04    0.02    0.06    0.20     11.16
+builder     15.71    0.02   -0.85    3.74   -0.04    0.04    0.14    0.15     11.18
+guard       15.46    0.06   -0.37    4.39   -0.03    0.10    0.18    0.22     10.95
+scout       14.12    0.00   -1.02   13.63    0.05    0.06    0.15    0.22     10.09
+thief       16.18    0.01   -0.86    3.16   -0.03    0.01   -0.00    0.16     11.49
+hunter      15.89    0.05   -0.97    3.99   -0.04    0.09    0.13    0.25     11.34
+healer      15.40    0.04   -0.84    3.10   -0.03    0.10    0.72    0.14     10.92
+hoarder     15.21    0.05   -0.89    6.25   -0.00    0.02    0.09    2.17     11.09
+
+== average fusion, 50/50: share of each parent's advantage kept
+farmer   + builder   n/a (parents score about the same on one task)
+farmer   + guard     n/a (parents score about the same on one task)
+farmer   + scout     keep  0.63 /  0.64  everyday 10.76  BOTH    Gatherer, Free Spirit, Homebody, Diligent, Herd
+farmer   + thief     n/a (parents score about the same on one task)
+farmer   + hunter    n/a (parents score about the same on one task)
+farmer   + healer    n/a (parents score about the same on one task)
+farmer   + hoarder   keep  1.20 /  0.35  everyday 11.34          Gatherer, Free Spirit, Homebody, Diligent, Patient
+builder  + guard     n/a (parents score about the same on one task)
+builder  + scout     n/a (parents score about the same on one task)
+builder  + thief     n/a (parents score about the same on one task)
+builder  + hunter    n/a (parents score about the same on one task)
+builder  + healer    n/a (parents score about the same on one task)
+builder  + hoarder   n/a (parents score about the same on one task)
+guard    + scout     keep  0.00 /  0.48  everyday 10.87          Gatherer, Free Spirit, Homebody, Diligent
+guard    + thief     n/a (parents score about the same on one task)
+guard    + hunter    n/a (parents score about the same on one task)
+guard    + healer    n/a (parents score about the same on one task)
+guard    + hoarder   keep  0.49 /  0.38  everyday 11.09          Gatherer, Free Spirit, Homebody, Diligent, Patient
+scout    + thief     n/a (parents score about the same on one task)
+scout    + hunter    n/a (parents score about the same on one task)
+scout    + healer    keep  0.57 /  0.49  everyday 10.89          Gatherer, Free Spirit, Diligent, Homebody, Sly
+scout    + hoarder   keep  0.45 /  0.24  everyday 10.57          Pathfinder, Gatherer, Free Spirit, Diligent, Sly
+thief    + hunter    n/a (parents score about the same on one task)
+thief    + healer    n/a (parents score about the same on one task)
+thief    + hoarder   n/a (parents score about the same on one task)
+hunter   + healer    n/a (parents score about the same on one task)
+hunter   + hoarder   n/a (parents score about the same on one task)
+healer   + hoarder   keep  0.48 /  0.27  everyday 11.24          Gatherer, Free Spirit, Homebody, Diligent, Patient
+7 pairs: 1 keep both (>50% each), 0 lose both, mean kept 0.48
+
+== arithmetic fusion, 50/50: share of each parent's advantage kept
+farmer   + builder   n/a (parents score about the same on one task)
+farmer   + guard     n/a (parents score about the same on one task)
+farmer   + scout     keep -0.03 /  1.01  everyday 10.02          Pathfinder, Gatherer, Free Spirit, Sly, Diligent
+farmer   + thief     n/a (parents score about the same on one task)
+farmer   + hunter    n/a (parents score about the same on one task)
+farmer   + healer    n/a (parents score about the same on one task)
+farmer   + hoarder   keep  0.18 /  0.99  everyday 11.16          Gatherer, Free Spirit, Diligent, Herd, Patient
+builder  + guard     n/a (parents score about the same on one task)
+builder  + scout     n/a (parents score about the same on one task)
+builder  + thief     n/a (parents score about the same on one task)
+builder  + hunter    n/a (parents score about the same on one task)
+builder  + healer    n/a (parents score about the same on one task)
+builder  + hoarder   n/a (parents score about the same on one task)
+guard    + scout     keep  0.55 /  0.83  everyday 10.00  BOTH    Pathfinder, Gatherer, Free Spirit, Sly, Diligent
+guard    + thief     n/a (parents score about the same on one task)
+guard    + hunter    n/a (parents score about the same on one task)
+guard    + healer    n/a (parents score about the same on one task)
+guard    + hoarder   keep  0.53 /  1.02  everyday 10.90  BOTH    Gatherer, Free Spirit, Herd, Homebody, Diligent
+scout    + thief     n/a (parents score about the same on one task)
+scout    + hunter    n/a (parents score about the same on one task)
+scout    + healer    keep  0.96 /  1.09  everyday  9.98  BOTH    Pathfinder, Gatherer, Free Spirit, Sly, Diligent
+scout    + hoarder   keep  0.80 /  0.46  everyday  9.67          Pathfinder, Gatherer, Free Spirit, Gentle, Sly
+thief    + hunter    n/a (parents score about the same on one task)
+thief    + healer    n/a (parents score about the same on one task)
+thief    + hoarder   n/a (parents score about the same on one task)
+hunter   + healer    n/a (parents score about the same on one task)
+hunter   + hoarder   n/a (parents score about the same on one task)
+healer   + hoarder   keep  0.75 /  0.68  everyday 10.79  BOTH    Gatherer, Free Spirit, Gentle, Homebody, Diligent
+7 pairs: 4 keep both (>50% each), 0 lose both, mean kept 0.70

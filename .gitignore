@@ -1,0 +1,20 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Build output
+build/
+bin/
+obj/
+override.cfg
+
+# Python training environment
+training/.venv/
+__pycache__/
+
+# Local tool settings
+.claude/
+
+# Large videos (upload separately)
+media/*.mp4
+media/*.avi

@@ -1,0 +1,5 @@
+Terminated                 .venv/bin/python -u ppo.py --kind "$1" --init ../brains/base.bin --init-critic ../brains/base.critic.pt --lr "$LR" --anchor "$ANCHOR" --steps "$STEPS" --envs 256 --threads 4 --seed 1 > "logs/$1.log" 2>&1
+Terminated                 .venv/bin/python -u ppo.py --kind "$1" --init ../brains/base.bin --init-critic ../brains/base.critic.pt --lr "$LR" --anchor "$ANCHOR" --steps "$STEPS" --envs 256 --threads 4 --seed 1 > "logs/$1.log" 2>&1
+Terminated                 .venv/bin/python -u ppo.py --kind "$1" --init ../brains/base.bin --init-critic ../brains/base.critic.pt --lr "$LR" --anchor "$ANCHOR" --steps "$STEPS" --envs 256 --threads 4 --seed 1 > "logs/$1.log" 2>&1
+Terminated                 .venv/bin/python -u ppo.py --kind "$1" --init ../brains/base.bin --init-critic ../brains/base.critic.pt --lr "$LR" --anchor "$ANCHOR" --steps "$STEPS" --envs 256 --threads 4 --seed 1 > "logs/$1.log" 2>&1
+all specialists done

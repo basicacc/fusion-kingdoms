@@ -1,0 +1,27 @@
+[builder] it 0/244 steps 0.0M return nan ent 2.95 sps 46657
+[builder] it 10/244 steps 0.2M return 3.366 ent 3.00 sps 28260
+[builder] it 20/244 steps 0.3M return 3.748 ent 2.99 sps 29394
+[builder] it 30/244 steps 0.5M return 4.717 ent 2.97 sps 32761
+[builder] it 40/244 steps 0.7M return 4.343 ent 3.06 sps 37681
+[builder] it 50/244 steps 0.8M return 5.674 ent 3.11 sps 41761
+[builder] it 60/244 steps 1.0M return 7.017 ent 2.90 sps 44940
+[builder] it 70/244 steps 1.2M return 7.731 ent 2.88 sps 47580
+[builder] it 80/244 steps 1.3M return 6.908 ent 3.00 sps 49114
+[builder] it 90/244 steps 1.5M return 5.976 ent 2.89 sps 50733
+[builder] it 100/244 steps 1.7M return 6.650 ent 2.94 sps 52650
+[builder] it 110/244 steps 1.8M return 5.986 ent 3.02 sps 53439
+[builder] it 120/244 steps 2.0M return 4.872 ent 3.01 sps 53702
+[builder] it 130/244 steps 2.1M return 6.393 ent 3.02 sps 54270
+[builder] it 140/244 steps 2.3M return 7.152 ent 3.01 sps 55463
+[builder] it 150/244 steps 2.5M return 7.741 ent 3.02 sps 56703
+[builder] it 160/244 steps 2.6M return 6.364 ent 2.97 sps 57386
+[builder] it 170/244 steps 2.8M return 6.385 ent 2.98 sps 58093
+[builder] it 180/244 steps 3.0M return 6.111 ent 3.01 sps 58637
+[builder] it 190/244 steps 3.1M return 6.311 ent 2.97 sps 59052
+[builder] it 200/244 steps 3.3M return 6.280 ent 3.03 sps 59560
+[builder] it 210/244 steps 3.5M return 5.939 ent 3.01 sps 60112
+[builder] it 220/244 steps 3.6M return 5.840 ent 2.97 sps 60939
+[builder] it 230/244 steps 3.8M return 7.814 ent 2.98 sps 61288
+[builder] it 240/244 steps 3.9M return 6.762 ent 2.92 sps 61661
+[builder] it 243/244 steps 4.0M return 6.718 ent 2.97 sps 61864
+[builder] done, best avg return 7.814

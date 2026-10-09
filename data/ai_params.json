@@ -1,0 +1,50 @@
+{
+  "Breeder": {
+    "FoodShare": 0.5876239,
+    "TimberShare": 0.17627198,
+    "StoneShare": 0.08628685,
+    "LumenShare": 0.19416623,
+    "ArmyFraction": 0.14419653,
+    "AttackStart": 198.06834,
+    "AttackRatio": 1.001381,
+    "AttackMin": 10,
+    "RetreatAt": 0.21245451,
+    "Defenders": 2,
+    "RaidNightOnly": 1,
+    "ScoutEvery": 327.74588,
+    "FuseEvery": 53.684643,
+    "SpireAlarm": 190.35825
+  },
+  "Warden": {
+    "FoodShare": 0.41510943,
+    "TimberShare": 0.14817244,
+    "StoneShare": 0.11734707,
+    "LumenShare": 0.2355401,
+    "ArmyFraction": 0.21015851,
+    "AttackStart": 292.12125,
+    "AttackRatio": 1.2359233,
+    "AttackMin": 14,
+    "RetreatAt": 0.34731656,
+    "Defenders": 4,
+    "RaidNightOnly": 0,
+    "ScoutEvery": 295.96313,
+    "FuseEvery": 59.538532,
+    "SpireAlarm": 155.93762
+  },
+  "Archmage": {
+    "FoodShare": 0.31167418,
+    "TimberShare": 0.3386371,
+    "StoneShare": 0.16924843,
+    "LumenShare": 0.23503429,
+    "ArmyFraction": 0.07902838,
+    "AttackStart": 411.01523,
+    "AttackRatio": 1.2424675,
+    "AttackMin": 6,
+    "RetreatAt": 0.4455287,
+    "Defenders": 2,
+    "RaidNightOnly": 1,
+    "ScoutEvery": 344.1674,
+    "FuseEvery": 147.98358,
+    "SpireAlarm": 298.21585
+  }
+}

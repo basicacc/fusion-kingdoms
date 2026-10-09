@@ -1,0 +1,50 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Fusion Kingdoms"
+run/main_scene="res://scenes/Menu.tscn"
+config/features=PackedStringArray("4.7", "C#", "Forward Plus")
+config/icon="res://icon.svg"
+
+[autoload]
+
+DevShot="*res://scripts/DevShot.cs"
+Sound="*res://scripts/Sound.cs"
+Skin="*res://scripts/Skin.cs"
+Display="*res://scripts/Display.cs"
+MCPRuntime="*uid://xo77h3jl04q1"
+Minds="*res://scripts/MindLibrary.cs"
+Net="*res://scripts/Net/NetSession.cs"
+
+[display]
+
+window/size/viewport_width=1600.0
+window/size/viewport_height=900.0
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[dotnet]
+
+project/assembly_name="Fusion Kingdoms"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/godot_mcp/plugin.cfg")
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+rendering_device/driver.windows="d3d12"

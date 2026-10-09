@@ -1,0 +1,13 @@
+{
+  "args_summary": "setup_autoload(path=res://scripts/MindLibrary.cs, name=Minds)",
+  "files": [
+    {
+      "backup": "res://addons/godot_mcp/cache/undo/entry_000001/files/project.godot",
+      "kind": "snapshot",
+      "path": "res://project.godot"
+    }
+  ],
+  "id": "000001",
+  "timestamp": 1791480384.0,
+  "tool": "setup_autoload"
+}
